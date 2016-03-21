@@ -1,10 +1,20 @@
-library(ggplot2); library(caret); library(kernlab) 
+library(ggplot2); library(caret); data(spam)
 setwd("C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis")
 Data <- read.csv("Data_1_No_Header.csv", header = TRUE, sep = ",")
 #creates vector for taking STD_Devs
 x <- length(Data)
 #Data <- na.omit(Data)
 N_Matrix <- as.matrix(sapply(Data,as.numeric))
+# 75% sampling algorithm
+means_number <- .75 * nrow(N_Matrix)
+
+set.seed(1793)
+train_ind <-sample(seq_len(nrow(N_Matrix)), size = means_number)
+
+train <- N_Matrix[train_ind,]
+test <- N_Matrix[-train_ind,]
+
+
 #additional information
 Std_Dev_10 <- vector(mode="double", length=x-1)
 Std_Dev_5 <- vector(mode="double", length=x-1)
