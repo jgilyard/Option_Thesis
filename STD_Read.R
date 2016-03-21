@@ -6,14 +6,6 @@ x <- length(Data)
 #Data <- na.omit(Data)
 N_Matrix <- as.matrix(sapply(Data,as.numeric))
 # 75% sampling algorithm
-means_number <- .75 * nrow(N_Matrix)
-
-set.seed(1793)
-train_ind <-sample(seq_len(nrow(N_Matrix)), size = means_number)
-
-train <- N_Matrix[train_ind,]
-test <- N_Matrix[-train_ind,]
-
 
 #additional information
 Std_Dev_10 <- vector(mode="double", length=x-1)
@@ -72,7 +64,7 @@ lines(density(Std_Dev_10), col="darkblue", lwd=2)
 legend(20, .8, legend=c("3M", "6M","1Y","2Y","5Y","10Y"), col=c("black","blue","green","orange","red","darkblue"), lty=1,cex=0.8)
 
 #list of vol vols top 2 quartiles. 
-trunc <- floor(x/2)
+trunc <- floor(x/5)
 
 
 ##Vectors for the 2 Lowest Vol Equitieis
@@ -165,5 +157,31 @@ summary(min_vec_10)
 cutoff_plot[6] <- signif(cutoff_10,digits=3)
 
 plot_names <-c("3m","6m","1Y","2Y","5Y","10Y")
-bplot <- barplot(cutoff_plot, main = "Cut of for each Level", names.arg = plot_names,beside=TRUE,horiz = TRUE)
+bplot <- barplot(cutoff_plot, main = "Cut off for each Level", names.arg = plot_names,beside=TRUE,horiz = TRUE)
 text(cutoff_plot, bplot +.3, labels = as.character(cutoff_plot),xpd=TRUE)
+
+#make is_low_vol vs isn_low_vol based upon the cutoffs
+
+T_F_Low_3m <- matrix(nrow = x, ncol =2)
+colnames(T_F_Low_3m) <-c("Equity", "is Low Vol")
+runner = 1
+for( i in 1:x)
+{
+  for( j in 1:trunc)
+  {
+    if(s(colnames(Data[i]),order_3M[j]))
+    {
+      T_F_Low_3m[runner,1] = colnames(Data[i])
+      T_F_Low_3m[runner,2] = TRUE
+      break
+    }
+    else
+    {
+      T_F_Low_3m[runner,1] = colnames(Data[i])
+      T_F_Low_3m[runner,2] = FALSE
+    }
+  }
+  runner = runner +1
+}
+write.table(T_F_Low_3m, sep = ",", file="list.csv")
+
