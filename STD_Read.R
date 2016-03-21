@@ -1,4 +1,4 @@
-library(ggplot2) 
+library(ggplot2); library(caret); library(kernlab) 
 setwd("C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis")
 Data <- read.csv("Data_1_No_Header.csv", header = TRUE, sep = ",")
 #creates vector for taking STD_Devs
