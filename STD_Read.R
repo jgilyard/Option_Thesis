@@ -169,7 +169,7 @@ for( i in 1:x)
 {
   for( j in 1:trunc)
   {
-    if(s(colnames(Data[i]),order_3M[j]))
+    if(identical(colnames(Data[i]),order_3M[j]))
     {
       T_F_Low_3m[runner,1] = colnames(Data[i])
       T_F_Low_3m[runner,2] = TRUE
@@ -183,5 +183,5 @@ for( i in 1:x)
   }
   runner = runner +1
 }
-write.table(T_F_Low_3m, sep = ",", file="list.csv")
+#write.table(T_F_Low_3m, sep = ",", file="list.csv")
 
