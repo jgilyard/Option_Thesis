@@ -1,1 +1,4 @@
 *.png
+.Rhistory
+.RData
+list.csv

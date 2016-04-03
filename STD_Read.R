@@ -165,7 +165,7 @@ text(cutoff_plot, bplot +.3, labels = as.character(cutoff_plot),xpd=TRUE)
 T_F_Low_3m <- matrix(nrow = x, ncol =2)
 colnames(T_F_Low_3m) <-c("Equity", "is Low Vol")
 runner = 1
-for( i in 1:x)
+for( i in 2:x)
 {
   for( j in 1:trunc)
   {
@@ -183,5 +183,5 @@ for( i in 1:x)
   }
   runner = runner +1
 }
-#write.table(T_F_Low_3m, sep = ",", file="list.csv")
+write.table(T_F_Low_3m, sep = ",", file="list.csv")
 
