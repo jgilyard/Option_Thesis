@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  3 APR 2016 15:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  3 APR 2016 17:35
 entering extended mode
 **Theis.tex
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Theis.tex"
@@ -968,55 +968,55 @@ Package: filecontents 2011/10/08 v1.3 Create an external file from within a LaT
 eX document
 )
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Theis.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 60.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 59.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 59.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 60.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 60.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 59.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fmsfutm.fd"
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 60.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 60.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 59.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fmxfutm.fd"
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 59.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 60.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 59.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\t1futs.fd"
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
-LaTeX Info: Redefining \microtypecontext on input line 60.
+LaTeX Info: Redefining \microtypecontext on input line 59.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1054,9 +1054,9 @@ Package caption Info: End \AtBeginDocument code.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.11} into 
 your preamble.
- on input line 60.
+ on input line 59.
 
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 62.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 61.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -1064,7 +1064,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for OT1+bch on input line 62.
+LaTeX Font Info:    Try loading font information for OT1+bch on input line 61.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1bch.fd"
 File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
@@ -1073,25 +1073,25 @@ File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
 
 )
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 62
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 61
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fourier\fmlfutmi.fd"
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 62.
+(Font)              scaled to size 13.24796pt on input line 61.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 62.
+(Font)              scaled to size 9.19998pt on input line 61.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 62.
+(Font)              scaled to size 7.35999pt on input line 61.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 62.
+(Font)              scaled to size 13.24796pt on input line 61.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 62.
+(Font)              scaled to size 9.19998pt on input line 61.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 62.
-LaTeX Font Info:    Try loading font information for U+msa on input line 62.
+(Font)              scaled to size 7.35999pt on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1099,7 +1099,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 62.
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1107,7 +1107,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Package tocbasic Info: character protrusion at toc deactivated on input line 63
+Package tocbasic Info: character protrusion at toc deactivated on input line 62
 .
 
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Theis.toc")
@@ -1115,23 +1115,23 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 63
  [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6]
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Theis.aux") ) 
 Here is how much of TeX's memory you used:
- 28196 strings out of 493921
- 666477 string characters out of 3144867
- 877725 words of memory out of 3000000
+ 28316 strings out of 493921
+ 667648 string characters out of 3144867
+ 880725 words of memory out of 3000000
  30947 multiletter control sequences out of 15000+200000
- 57261 words of font info for 76 fonts, out of 3000000 for 9000
+ 65303 words of font info for 167 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 70i,11n,80p,723b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,12n,80p,2460b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Use
 rs\gilyja12\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx109
 5.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on Theis.pdf (1 page, 24478 bytes).
+Output written on Theis.pdf (6 pages, 42838 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21005 words of extra memory for PDF output out of 24883 (max. 10000000)
 
