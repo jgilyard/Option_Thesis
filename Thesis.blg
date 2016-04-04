@@ -1,5 +1,9 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Thesis.aux
 The style file: ieeetr.bst
+Illegal, another \bibstyle command---line 22 of file Thesis.aux
+ : \bibstyle
+ :          {abbrv}
+I'm skipping whatever remains of this command
 Database file #1: Thesis.bib
 Warning--entry type for "class" isn't style-file defined
 --line 2 of file Thesis.bib
@@ -12,4 +16,4 @@ Warning--entry type for "caret" isn't style-file defined
 Warning--entry type for "Bloomberg" isn't style-file defined
 --line 71 of file Thesis.bib
 Warning--empty journal in Kuhn
-(There were 6 warnings)
+(There was 1 error message)
