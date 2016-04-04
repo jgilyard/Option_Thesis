@@ -1,9 +1,13 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{6}
 \contentsline {section}{\numberline {2}Methodology and Approach}{8}
-\contentsline {section}{\numberline {3}Literature Review}{8}
-\contentsline {section}{\numberline {4}GPU Rationale}{8}
-\contentsline {section}{\numberline {5}Keywords}{8}
-\contentsline {section}{\numberline {6}Additional}{8}
-\contentsline {section}{\numberline {7}Results}{8}
-\contentsline {section}{References}{8}
+\contentsline {subsection}{\numberline {2.1}Machine Learning Class}{8}
+\contentsline {subsection}{\numberline {2.2}Caret Package}{10}
+\contentsline {subsection}{\numberline {2.3}Data Mining}{10}
+\contentsline {section}{\numberline {3}Literature Review}{11}
+\contentsline {subsection}{\numberline {3.1}Black Schoales}{11}
+\contentsline {section}{\numberline {4}GPU Rationale}{11}
+\contentsline {section}{\numberline {5}Keywords}{11}
+\contentsline {section}{\numberline {6}Model Creation and Functions}{11}
+\contentsline {section}{\numberline {7}Results}{11}
+\contentsline {section}{References}{11}

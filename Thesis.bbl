@@ -1,6 +1,21 @@
 \begin{thebibliography}{1}
 
+\bibitem{gilyard_website}
+J.~Gilyard, ``Personal website,'' 2016.
+
+\bibitem{github_repo}
+J.~Gilyard, ``Project repository,'' 2016.
+
 \bibitem{class}
 D.~J. Leek, D.~R. Peng, and D.~B. Caffo, ``Practical machine learning,'' 2016.
+
+\bibitem{caret}
+M.~Kuhn, ``The caret package,'' 2016.
+
+\bibitem{Kuhn}
+M.~Kuhn, ``Building predictive models in r using the caret package,'' 2008.
+
+\bibitem{Bloomberg}
+H.~B. School, ``Bloomberg limits,'' 2015.
 
 \end{thebibliography}

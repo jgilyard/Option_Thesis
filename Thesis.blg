@@ -3,4 +3,13 @@ The style file: ieeetr.bst
 Database file #1: Thesis.bib
 Warning--entry type for "class" isn't style-file defined
 --line 2 of file Thesis.bib
-(There was 1 warning)
+Warning--entry type for "gilyard_website" isn't style-file defined
+--line 19 of file Thesis.bib
+Warning--entry type for "github_repo" isn't style-file defined
+--line 36 of file Thesis.bib
+Warning--entry type for "caret" isn't style-file defined
+--line 54 of file Thesis.bib
+Warning--entry type for "Bloomberg" isn't style-file defined
+--line 71 of file Thesis.bib
+Warning--empty journal in Kuhn
+(There were 6 warnings)

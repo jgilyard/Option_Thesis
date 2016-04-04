@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  3 APR 2016 21:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  3 APR 2016 23:01
 entering extended mode
 **Thesis.tex
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.tex"
@@ -1117,29 +1117,43 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 Package tocbasic Info: character protrusion at toc deactivated on input line 67
 .
 
-("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.toc")
+("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.toc"
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 4.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 4.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 10.07397pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 7.63599pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 4.
+)
 \tf@toc=\write5
  [1
 
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7]
-("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.bbl") [8]
-("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.aux") ) 
+[8] [9] [10]
+("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.bbl" [11])
+[12] ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.aux") ) 
 Here is how much of TeX's memory you used:
- 28419 strings out of 493921
- 669244 string characters out of 3144867
+ 28530 strings out of 493921
+ 670879 string characters out of 3144867
  880726 words of memory out of 3000000
- 31039 multiletter control sequences out of 15000+200000
- 65573 words of font info for 170 fonts, out of 3000000 for 9000
+ 31098 multiletter control sequences out of 15000+200000
+ 99677 words of font info for 227 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  70i,11n,80p,2457b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Us
-ers\gilyja12\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx10
-95.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on Thesis.pdf (8 pages, 51660 bytes).
+ <
+C:\Users\gilyja12\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+csx1095.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb>
+Output written on Thesis.pdf (12 pages, 60783 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 91 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21005 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 36877 words of extra memory for PDF output out of 42996 (max. 10000000)
 
