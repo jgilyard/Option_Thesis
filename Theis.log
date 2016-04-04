@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  3 APR 2016 17:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  3 APR 2016 20:32
 entering extended mode
 **Theis.tex
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Theis.tex"
@@ -1115,23 +1115,24 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 62
  [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7] [
+8]
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Theis.aux") ) 
 Here is how much of TeX's memory you used:
- 28316 strings out of 493921
- 667648 string characters out of 3144867
+ 28320 strings out of 493921
+ 667685 string characters out of 3144867
  880725 words of memory out of 3000000
  30947 multiletter control sequences out of 15000+200000
- 65303 words of font info for 167 fonts, out of 3000000 for 9000
+ 65573 words of font info for 170 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 70i,12n,80p,2460b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,12n,80p,2456b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Use
 rs\gilyja12\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx109
 5.pk>{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Pro
 gram Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb>
-Output written on Theis.pdf (6 pages, 42838 bytes).
+Output written on Theis.pdf (8 pages, 46636 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21005 words of extra memory for PDF output out of 24883 (max. 10000000)
 
