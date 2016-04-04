@@ -1,0 +1,9 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{6}
+\contentsline {section}{\numberline {2}Methodology and Approach}{8}
+\contentsline {section}{\numberline {3}Literature Review}{8}
+\contentsline {section}{\numberline {4}GPU Rationale}{8}
+\contentsline {section}{\numberline {5}Keywords}{8}
+\contentsline {section}{\numberline {6}Additional}{8}
+\contentsline {section}{\numberline {7}results}{8}
+\contentsline {section}{References}{8}

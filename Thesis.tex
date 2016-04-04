@@ -1,0 +1,115 @@
+\documentclass[paper=letter, fontsize=11pt]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage{fourier}
+\usepackage[english]{babel}															% English language/hyphenation
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage[pdftex]{graphicx}	
+\usepackage{url}
+\usepackage{csvsimple}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{listings}
+\lstset{language=C++}
+%%% Custom sectioning
+\usepackage{sectsty}
+\allsectionsfont{\centering \normalfont\scshape}
+\topskip0pt
+\usepackage{pgfplots, pgfplotstable}
+%%% Custom headers/footers (fancyhdr package)
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+\fancyhead{}											% No page header
+\fancyfoot[L]{}											% Empty 
+\fancyfoot[C]{}											% Empty
+\fancyfoot[R]{\thepage}									% Pagenumbering
+\renewcommand{\headrulewidth}{0pt}			% Remove header underlines
+\renewcommand{\footrulewidth}{0pt}				% Remove footer underlines
+\setlength{\headheight}{13.6pt}
+
+%%% Equation and float numbering
+\numberwithin{equation}{section}		% Equationnumbering: section.eq#
+\numberwithin{figure}{section}			% Figurenumbering: section.fig#
+\numberwithin{table}{section}				% Tablenumbering: section.tab#
+
+
+%%% Maketitle metadata
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} 	% Horizontal rule
+
+\title{
+		%\vspace{-1in} 	
+		\usefont{OT1}{bch}{b}{n}
+		\normalfont \normalsize \textsc{Senior Thesis} \\ [25pt]
+		\horrule{0.5pt} \\[0.4cm]
+		\huge GPU Optimized Machine Learning Algorithms for Low-Volatility Stock Portfolio Options \\
+		\horrule{2pt} \\[0.5cm]
+}
+\author{
+	\normalfont \normalsize
+        Julian Gilyard\\[-3pt]		
+	\normalsize
+        \today
+}
+\date{}
+%\usepackage{natbib}
+
+\usepackage{filecontents}
+\usepackage[nottoc]{tocbibind}
+
+%%% Begin document
+\begin{document}
+
+\bibliographystyle{ieeetr}
+\maketitle
+
+\tableofcontents
+
+\begin{spacing}{2}
+\section*{Thanks}
+Keeping with the ever present traditional of the senior honors these, I would like to take this time to thank some of the people that have been individually responsible for my success throughout my undergraduate career. These individuals have played a significant role in  providing me with clarity, opportunities and understanding. Without there support, I would not have been able to thrive during my time at Wake Forest University. As much as this thesis is for me, it is for all of the individuals that have helped me along the way. 
+
+Matthias Gobbert is a professor at UMBC in Maryland. He was my primary supervisor during my NSA/NSF sponsored REU. Dr. Gobbert provided me with an invaluable understanding of research tools, high performance computing and and UNIX systems. His teaching style is second to none and created a life long friendship between myself and my teammates In 2015, he helped me present and co-author a paper that was published in SIAM's journal SIURO. 
+
+Professor Jiang has been half of the integral part to my mathematical economics major. As much as professor Jiang is an adviser, he is a friend. He has provided me with a plethora of life advice regarding decisions for my future and how to apply myself more fully within the discipline of mathematical. I have always appreciate his candidness and ability to teach. Because of him, I believe I am a better Mathematician and human. 
+
+Dr. Phillips, while neither in a computation field of finance or computer science has been an integral part of my maturation. Dr. Phillips is the scholarship adviser and a personal friend. He was the adviser of the Vienna Flow house in 2014 when I studied abroad. While I lived there, I matured as a person, wrote models for monitoring Bitcoin traffic and explored the depths of my own humanity. Dr Phillips' influence in my life has allowed me to thoroughly experience my Wake Forest time while learning to understand the meaning behind life. He may be the most complete and passionate individual that I have ever met. He pedagogical vantage point and methodological approach to life has forever changed my understanding of what is means to live life. I vicariously live through his stories and picture life better every time I have a conversation with him.
+
+Professor Chen is the epitome of a learned individual. He is capable of understanding concepts and always willing to let me explore the boundaries of how economics applies. He is the second half of my mathematical economics major. Within the economics department, I have relished the opportunities to work with him and further my understanding of numerous concepts. During my senior year, when I heard that he was offering game theory, I immediately took the class and was refreshingly challenged. He allowed me to look at the importance of applying deep concepts and invited me to apply game theory in non-traditional roles. Thanks for letting me write my game theory paper on bowling. 
+
+Professor Gambill, while out of the people mentioned here I have known the least, has nonetheless been a truly inspirational mentor and teacher. Professor Gambill teaches the library science class in which students create individual research projects and gain an understanding of research and its implications. She embodies the spirit of what is right at Wake Forest University. She has inspired me to acquire higher levels of knowledge while expressing myself within scholarly perspective. Without her help this paper would not have been possible. Because of her, I gained a reinvigorated desire for research and scholarship. 
+
+Dr. Cotrell is a revered professor of the economics department at Wake Forest University. I took his econometric class during my junior year and the concepts that he taught me have provided a lifelong appreciation for research and applied economics. Dr. Cotrell taught me the value of collecting data and applying it to a larger concept and context. Without his help, I would have no concept of econometric theory or learning how to identify the importance of everyday items to a larger idea. Dr. Cotrell while being an economic professor is also a computational genius. He created, wrote and now maintains the economic regression software GRETL. I hope that in the future he will serve as a friend, resource and adjunct professor in the computer science department. 
+
+Professor Pauca, is a professor of the Computer Science department. He was my first computer science professor at Wake Forest University and inspired me to expand my scope at Wake Forest University. He was taught me to enjoy computer science as a discipline and to fully embrace the culture. Through his class, I learned how to program android applications while making a life long connection to the discipline as a whole. Individually he has made tremendous strides in making technology useful to disabled people and his been an inspiration to me. 
+
+Dylan Stamer is a strategist at UBS and inspired me to apply my computer science major to finance. His mentoring has been invaluable throughout my maturation. Dylan provided me a significant amount of real world knowledge  about finance while providing me with opportunities to expand my horizons. In 2016, I will return to UBS to work with him. I consider him to be the primary reason that I was able to work at UBS while being a large friend and mentor. 
+
+Joe Stewart is one of the most inspirational individuals that I have met in my life. Joe inspired me to take finance and the world by the palm of my hands and to run with it. He is the head of US hedge fund sales at UBS and will be my current employer. Joe has taken a unique role in my life my providing me with numerous opportunities to apply my skills in looking an unique hybrids for markets domestic and international. Without his support, I would not be employed or have a significant understanding of the lateral correlations and movements of markets. While Joe is adept at finance, he is impact extends past that to a friendship for me. He has mentored me an a way that few could by placing me in unique situations for research and influence. In the future, Joe Stewart and I will be working towards looking at tertiary market movements and seeing the impact of largely leveraged markets. 
+
+Dr. Samuel Cho is pretty much everything to me. He has been a mentor, teacher, friend, confidant, resource,and understanding mentor that I am honored to have worked under during my tenure at Wake Forest University. I first met Dr. Cho when I presented my first app from my first computer science class in 2013. After viewing that application, Dr. Cho offered me a position to research in his lab. Coming into his lab, I knew nothing of research, MD simulations, GPUs (Graphics Processing Units), computational complexity or life; however, my interactions and constant briefings from him provided me with context for all of those experiences and more. He gave my the strength to pursue my passions and lead me to unimaginable places. When I look back at what I have done at Wake Forest University, I see that almost all of it has to do with Dr. Cho. Dr. Cho has provided me to learning opportunities, presentation scenarios and a life long friendship. He taught me the value of quality work, the true meaning of teamwork and the knowledge of the impact of failure. I don't know where I would be without him. He is possibly the greatest person that I have had the pleasure of interacting with in my life. Outside of being able to research with Dr. Cho, I have had the pleasure of calling him my friend. Whenever, I have needed to talk with someone about life, research, understanding or context, he has been available. Dr. Cho can tell you able times that I have cried in his office, rambled for hours about unique concepts that he already was an expert in, and about my many mistakes. In the fact the the majority of my work has dealt with research Dr. Cho taught me how to expand my horizons and to truly pursue ideas that I thought were worthy. He gave me the courage to take nontraditional approaches to numerous ideas while expanding my mind. In the time that I have known Dr. Cho, he has not once inhibited my ability to learn or experiment. In fact, he has been always willing to give me a shot to go after the most obscure topics with significant importance. In the amount that Dr. Cho has given me, I doubt that I will be able to ever repay him. I suspect that he is rarest form of person that exist, one that challenges the ideas of the status quo while appreciating the current reality and encouraging others to do the same.  Sam, I am sure that forever we will be friends; you will always be my mentor; and, I will never forget you. 
+
+Mom and Dad: If I wrote about how much you mean to me this paper would just be a history of our lives together. In order to preserve brevity, I will just state the obvious. Thanks for everything, for without you, I wouldn't be here today. ;)
+\section{Introduction}
+This project is a hybrid construction between economics, finance and computer science. We seek to identify characteristics of low volatility equities while attempt to forecast if the equities stay within the realm of profit for specific options strategies. While volatility and value and positively correlated, given the black scholaes formula, we seek to look only for low volatility strategies as this gives us a cheaper and more reliable approach for looking at applications to finance as a whole.
+
+After we identify these low volatility equities in one of five time horizons (3 months, 6 months, 1 year, 2 year and 5 year) we look at numerous machine learning algorithms and see which ones are most adept at identifying the desired outcome for low volatility. We will be using a combination of algorithms then present the most compelling algorithms comparing the results to one another. This will allow us to gauge performance from a run time perspective and an accuracy perspective. Traditional metrics for machine learning such as confusion matrices will serve as a litmus test to determine how our algorithms will perform in real world scenarios. 
+
+In order to prepare for this project, we enlisted the help of Coursera's machine learning class taught in R. This provided us with industry experience and a wide variety of additional techniques that have been used to perform machine learning algorithms. This class is cross taught at the University of Pennsylvania and is provided for free online. The class covered R's implementation of the Caret package for machine learning, current testing methods, forecasting ideologies, co-variance matrices, data mining techniques and a complete understanding of data cleaning. 
+
+Our goal is to see how well these algorithms perform, select the best algorithm that performs the most accurate under our testing set then to see how we can increase the performance of our algorithms by porting them to GPUs. We will use a combination of leverageable packages through R and CUDA. In the end we seek to find performance gains and accurate predictors for a equities while displaying useful real world performance. Future implications for this work can be to limit negative market exposure or to dynamically craft baskets for clients that want particular exposure to companies in a specific sector but at a quantifiable risk profile. In order to provide validity to our testing methods we divide our data into two separate categories. 
+\section{Methodology and Approach}
+In order to have a starting point \cite{class}
+\section{Literature Review}
+\section{GPU Rationale}
+\section{Keywords}
+\section{Additional}
+\section{results}
+\bibliography{Thesis}
+
+
+\end{spacing}
+
+ 
+\end{document}
