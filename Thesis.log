@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  4 APR 2016 00:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  17 APR 2016 23:59
 entering extended mode
 **Thesis.tex
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.tex"
@@ -1135,16 +1135,36 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
  [1
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6] [7]
-[8] [9] [10] [11] [12]
-("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.bbl") [13]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6]
+<myfile.png, id=25, 578.16pt x 433.62pt>
+File: myfile.png Graphic file (type png)
+ <use myfile.png>
+Package pdftex.def Info: myfile.png used on input line 99.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [7 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/myfile.png>] [8] [
+9] [10] [11] [12]
+<corr.png, id=46, 556.32843pt x 405.76593pt>
+File: corr.png Graphic file (type png)
+ <use corr.png>
+Package pdftex.def Info: corr.png used on input line 135.
+(pdftex.def)             Requested size: 333.79964pt x 243.46143pt.
+ [13 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/corr.png>] [14]
+<Limited_Return.png, id=55, 311.46451pt x 258.38124pt>
+File: Limited_Return.png Graphic file (type png)
+
+<use Limited_Return.png>
+Package pdftex.def Info: Limited_Return.png used on input line 151.
+(pdftex.def)             Requested size: 311.46375pt x 258.3806pt.
+ [15 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/Limited_Return.pn
+g>] [16] [17] [18]
+("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.bbl") [19]
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.aux") ) 
 Here is how much of TeX's memory you used:
- 28557 strings out of 493921
- 671219 string characters out of 3144867
- 880724 words of memory out of 3000000
- 31102 multiletter control sequences out of 15000+200000
- 105570 words of font info for 242 fonts, out of 3000000 for 9000
+ 28592 strings out of 493921
+ 671671 string characters out of 3144867
+ 880726 words of memory out of 3000000
+ 31119 multiletter control sequences out of 15000+200000
+ 107973 words of font info for 254 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  70i,12n,80p,2457b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Pro
@@ -1152,9 +1172,9 @@ gram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\gilyja12
 \AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Thesis.pdf (13 pages, 78492 bytes).
+Output written on Thesis.pdf (19 pages, 183120 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 126 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 43021 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43036 words of extra memory for PDF output out of 51595 (max. 10000000)
 
