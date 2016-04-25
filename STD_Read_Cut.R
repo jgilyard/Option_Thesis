@@ -69,11 +69,11 @@ lines(density(Std_Dev_10), col="darkblue", lwd=2)
 legend(20, .8, legend=c("3M", "6M","1Y","2Y","5Y","10Y"), col=c("black","blue","green","orange","red","darkblue"), lty=1,cex=0.8)
 
 #makes variable cutoff for each equity time period
-M3_CUTOFF = .05
-M6_CUTOFF = .1
-Y1_CUTOFF = .2
-Y2_CUTOFF = .24
-Y5_CUTOFF = .48
+M3_CUTOFF = .05 #originally 5
+M6_CUTOFF = .10
+Y1_CUTOFF = .20
+Y2_CUTOFF = .40
+Y5_CUTOFF = .80
 Y10_CUTOFF = .96
 M3_NUM = 0 
 M6_NUM = 0

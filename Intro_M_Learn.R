@@ -34,13 +34,31 @@ confusionMatrix(predictions_1,testing$M3_LOW_VOL)
 confusionMatrix(predictions_2,testing$M3_LOW_VOL)
 confusionMatrix(predictions_3,testing$M3_LOW_VOL)
 confusionMatrix(predictions_4,testing$M3_LOW_VOL)
+TF_Pred_1 <- predictions_1
+TF_Pred_2 <- predictions_2
+TF_Pred_3 <- predictions_3
+TF_Pred_4 <- predictions_4
 predictions_1 = as.numeric(predictions_1)
 predictions_2 = as.numeric(predictions_2)
 predictions_3 = as.numeric(predictions_3)
 predictions_4 = as.numeric(predictions_4)
+
+comp_set <- testing
 testing$M3_LOW_VOL = as.numeric(testing$M3_LOW_VOL)
 library(pROC)
+
 plot.roc(testing$M3_LOW_VOL,predictions_1)
-sd(training$Free_CASH)
+plot.roc(testing$M3_LOW_VOL,predictions_2)
+plot.roc(testing$M3_LOW_VOL,predictions_3)
+plot.roc(testing$M3_LOW_VOL,predictions_4)
 
+predictions_1_1 <-predict(test_3, newdata=training)
+confusionMatrix(predictions_1_1, training$M3_LOW_VOL)
+predictions_1_1 = as.numeric(predictions_1_1)
+plot.roc(training$M3_LOW_VOL,predictions_1_1)
+#sd(training$Free_CASH)
+#compare ROC plots between perfect
 
+stock_names <- rownames(comp_set)
+hold <- data.frame(stock_names, comp_set$M3_LOW_VOL, TF_Pred_3)
+write.csv(hold,"test.csv", row.names = FALSE)
