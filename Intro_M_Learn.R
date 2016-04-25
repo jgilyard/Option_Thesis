@@ -1,6 +1,11 @@
 library(ggplot2); library(caret);
 setwd("C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis")
 Data <- read.csv("CFM.csv", header = TRUE, sep = ",")
+Data_Nums <- read.csv("Data_1_No_Header.csv", header = TRUE, sep = ",")
+#creates vector for taking STD_Devs
+x <- length(Data)
+#Data <- na.omit(Data)
+N_Matrix <- as.matrix(sapply(Data_Nums,as.numeric))
 Data[is.na(Data)]<-0
 samp1 <- Data[,1]
 rownames(Data)<- samp1
@@ -58,7 +63,32 @@ predictions_1_1 = as.numeric(predictions_1_1)
 plot.roc(training$M3_LOW_VOL,predictions_1_1)
 #sd(training$Free_CASH)
 #compare ROC plots between perfect
-
+stock_names = length(nrow(comp_set))
 stock_names <- rownames(comp_set)
-hold <- data.frame(stock_names, comp_set$M3_LOW_VOL, TF_Pred_3)
+current_price <-length(stock_names)
+value_out <-length(stock_names)
+short_put <-length(stock_names)
+long_put <-length(stock_names)
+short_call <-length(stock_names)
+long_call <-length(stock_names)
+names <- colnames(Data_Nums)
+for (i in 1:length(stock_names))
+{
+  nm_holder <- stock_names[i]
+  temp <- Data_Nums[nm_holder]
+  counter <- nrow(Data_Nums)
+  
+  value_out[i] <- temp[counter,]
+    #if(identical(TF_Pred_3[i], TRUE))
+    #{
+      short_put[i] = floor(.9*value_out[i])
+      long_put[i] = floor(.9*value_out[i]) - 1
+      short_call[i] = floor(1.1*value_out[i])
+      long_call[i] = floor(1.1*value_out[i]) + 1
+      current_price[i] = (value_out[i])
+      i
+    #}
+}
+
+hold <- data.frame(stock_names, comp_set$M3_LOW_VOL, TF_Pred_3,current_price,short_put,long_put,short_call,long_call)
 write.csv(hold,"test.csv", row.names = FALSE)
