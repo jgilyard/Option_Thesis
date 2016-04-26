@@ -5,7 +5,7 @@ Data[is.na(Data)]<-0
 samp1 <- Data[,1]
 rownames(Data)<- samp1
 Data[,1]<-NULL
-intrain <- createDataPartition(y=Data$SI_INT, p=.75, list=FALSE)
+intrain <- createDataPartition(y=Data$SI_INT, p=.65, list=FALSE)
 #Add Preprocessing Average by dividing mean by standard deveiaion
 NO_PROCESS_DATA = Data
 for( i in 1:10)

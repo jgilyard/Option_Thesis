@@ -70,11 +70,11 @@ legend(20, .8, legend=c("3M", "6M","1Y","2Y","5Y","10Y"), col=c("black","blue","
 
 #makes variable cutoff for each equity time period
 #test at 10%...
-M3_CUTOFF = .05 #originally 5
-M6_CUTOFF = .10
-Y1_CUTOFF = .20
-Y2_CUTOFF = .40
-Y5_CUTOFF = .80
+M3_CUTOFF = .10 #originally 5
+M6_CUTOFF = .20
+Y1_CUTOFF = .40
+Y2_CUTOFF = .80
+Y5_CUTOFF = .160
 Y10_CUTOFF = .96
 M3_NUM = 0 
 M6_NUM = 0
