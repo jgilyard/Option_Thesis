@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  4 MAY 2016 08:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.23)  4 MAY 2016 11:04
 entering extended mode
 **Thesis.tex
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.tex"
@@ -1114,7 +1114,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg"
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Package tocbasic Info: character protrusion at toc deactivated on input line 67
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 67.
+ [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package tocbasic Info: character protrusion at toc deactivated on input line 73
 .
 
 ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.toc"
@@ -1132,54 +1138,59 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 4.
 )
 \tf@toc=\write5
- [1
-
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4] [5] [6]
-<myfile.png, id=25, 578.16pt x 433.62pt>
+ [2]
+[3] [4] [5] [6] [7] <myfile.png, id=30, 578.16pt x 433.62pt>
 File: myfile.png Graphic file (type png)
  <use myfile.png>
-Package pdftex.def Info: myfile.png used on input line 99.
+Package pdftex.def Info: myfile.png used on input line 106.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
- [7 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/myfile.png>] [8] [
-9] [10] [11] [12]
-<corr.png, id=46, 556.32843pt x 405.76593pt>
+
+[8 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/myfile.png>]
+[9] [10] [11] [12] [13] <corr.png, id=51, 556.32843pt x 405.76593pt>
 File: corr.png Graphic file (type png)
- <use corr.png>
-Package pdftex.def Info: corr.png used on input line 135.
+
+<use corr.png>
+Package pdftex.def Info: corr.png used on input line 142.
 (pdftex.def)             Requested size: 333.79964pt x 243.46143pt.
- [13 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/corr.png>] [14]
-Overfull \hbox (16.03798pt too wide) in paragraph at lines 152--152
+ [14 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/corr.png>] [15]
+Overfull \hbox (16.03798pt too wide) in paragraph at lines 159--159
 [] 
  []
 
-[15] <Limited_Return.png, id=60, 311.46451pt x 258.38124pt>
+<IC.png, id=59, 240.9pt x 180.675pt>
+File: IC.png Graphic file (type png)
+ <use IC.png>
+Package pdftex.def Info: IC.png used on input line 162.
+(pdftex.def)             Requested size: 240.8994pt x 180.67455pt.
+ [16 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/IC.png>]
+<Limited_Return.png, id=65, 311.46451pt x 258.38124pt>
 File: Limited_Return.png Graphic file (type png)
 
 <use Limited_Return.png>
-Package pdftex.def Info: Limited_Return.png used on input line 161.
+Package pdftex.def Info: Limited_Return.png used on input line 173.
 (pdftex.def)             Requested size: 311.46375pt x 258.3806pt.
- [16] [17 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/Limited_Retu
-rn.png>] [18] [19] [20]
-("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.bbl" [21])
-[22] ("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.aux") ) 
+ [17] [18 <C:/Users/gilyja12/Documents/Senior Thesis/Option_Thesis/Limited_Retu
+rn.png>] [19] [20] [21] [22]
+("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.bbl") [23]
+("C:\Users\gilyja12\Documents\Senior Thesis\Option_Thesis\Thesis.aux") ) 
 Here is how much of TeX's memory you used:
- 28597 strings out of 493921
- 671715 string characters out of 3144867
- 881726 words of memory out of 3000000
- 31122 multiletter control sequences out of 15000+200000
- 107886 words of font info for 256 fonts, out of 3000000 for 9000
+ 28608 strings out of 493921
+ 671854 string characters out of 3144867
+ 880726 words of memory out of 3000000
+ 31129 multiletter control sequences out of 15000+200000
+ 112416 words of font info for 259 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  70i,12n,80p,2457b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C
-:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\gil
-yja12\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Thesis.pdf (22 pages, 190782 bytes).
+{C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc} <C:\Users\gilyja12
+\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Thesis.pdf (23 pages, 209388 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
+ 144 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 43036 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43553 words of extra memory for PDF output out of 51595 (max. 10000000)
 

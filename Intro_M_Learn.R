@@ -5,7 +5,7 @@ Data_Nums <- read.csv("Data_1_No_Header.csv", header = TRUE, sep = ",")
 #creates vector for taking STD_Devs
 x <- length(Data)
 #Data <- na.omit(Data)
-set.seed(1)
+set.seed(0)
 N_Matrix <- as.matrix(sapply(Data_Nums,as.numeric))
 Data[is.na(Data)]<-0
 samp1 <- Data[,1]

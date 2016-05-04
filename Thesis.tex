@@ -63,9 +63,16 @@
 
 \bibliographystyle{ieeetr}
 \maketitle
-
+\begin{center}
+\textbf{Abstract}
+\end{center}
+\begin{abstract}
+The stochastic nature of the stock market makes predicting future increases or decreases inconsistent at best and costly at worst. Traditional company fundamentals such as EBIDTA, PE ratio and others have been used by analyst to act as indicators to determine what will transpire in the future; however, based on the fact that 70 percent of investors lost money in 2015, we take a machine learning approach to create a solution. We look at the S\& P 1500 to analyze 10 years worth of data and multiple company metrics through machine learning algorithms. Afterwards we look at equities that fall within our given subset of "low-volatility equities" or stock that move less than +/- 10 percent over a 3 month period. This allows us to dynamically present options strategy that provide consistent returns with a low probability of loss. Using a combination of random trees, boosting, logit and linear modeling we are able to show that we can reliably place equities into this category.  Our algorithim assigns the respective put and call strike price and for each equity in the subset we propose an iron condor with a maximum profitability range of 10 percent and look to see which of those equities stay within their predicted boundaries.
+\end{abstract}
+\pagebreak
 \tableofcontents
-
+ 
+\pagebreak
 \begin{spacing}{2}
 \section*{Thanks}
 Keeping with the ever present traditional of the senior honors these, I would like to take this time to thank some of the people that have been individually responsible for my success throughout my undergraduate career. These individuals have played a significant role in  providing me with clarity, opportunities and understanding. Without there support, I would not have been able to thrive during my time at Wake Forest University. As much as this thesis is for me, it is for all of the individuals that have helped me along the way. 
@@ -150,6 +157,11 @@ Later we will go into detail about which metrics we use and which specific machi
 &Profit = (Selling Call) + (Selling Put) -(Purchase Price of Call) - (Purchase Price of Put)&\\
 &Loss = (Strike of Short Put - Strike of Long Put) - (Money Recieved)& 
 \end{align*}
+\begin{figure}
+\centering
+\includegraphics[scale=1]{IC.png}
+\caption{Iron Condor Description}
+\end{figure}
  \section{Literature Review}
 
 \subsection{First Paper}
@@ -195,8 +207,12 @@ C-P = D(F-K)
 
 These equations provide an explaination for why we chose low-volatility. Initially we chose low-volatility because there is an inverse relationship between price and volaility. Low volaility stock options at a discount becuase they are considered to be relatively worthless and profit is negatively skews then. We are able to profit off of the commision and the probability that those stocks will remain within their range. 
 \section{Multi-threaded Rationale}
+For this project, we were able to leverage the Caret package for our machine learning approaches. Caret natively has multi-threaded support for each of its machine learning algorithims. This helped out as the majority of the approaches that we attempted were embarrassingly parallel. Thankfully, instead of have to craft our own multi-core approaches, we can use Caret's.
 \section{Keywords}
 \section{Model Creation and Functions}
+\subsection{Setup}
+\subsection{Algorithm Development and Description}
+\subsection{Data Cleaning}
 \section{Results}
 \bibliographystyle{abbrv}
 

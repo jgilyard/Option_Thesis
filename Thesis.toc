@@ -1,17 +1,20 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{7}
-\contentsline {section}{\numberline {2}Methodology and Approach}{8}
+\contentsline {section}{\numberline {2}Methodology and Approach}{9}
 \contentsline {subsection}{\numberline {2.1}Machine Learning Class}{9}
-\contentsline {subsection}{\numberline {2.2}Caret Package}{10}
-\contentsline {subsection}{\numberline {2.3}Data Mining}{11}
-\contentsline {subsection}{\numberline {2.4}Financial Perspective and Idea}{14}
-\contentsline {section}{\numberline {3}Literature Review}{15}
-\contentsline {subsection}{\numberline {3.1}First Paper}{15}
-\contentsline {subsection}{\numberline {3.2}Second Paper}{18}
-\contentsline {subsection}{\numberline {3.3}Paper Three}{19}
-\contentsline {subsection}{\numberline {3.4}Black Schoales}{20}
-\contentsline {section}{\numberline {4}Multi-threaded Rationale}{21}
-\contentsline {section}{\numberline {5}Keywords}{21}
-\contentsline {section}{\numberline {6}Model Creation and Functions}{21}
-\contentsline {section}{\numberline {7}Results}{21}
-\contentsline {section}{References}{21}
+\contentsline {subsection}{\numberline {2.2}Caret Package}{11}
+\contentsline {subsection}{\numberline {2.3}Data Mining}{12}
+\contentsline {subsection}{\numberline {2.4}Financial Perspective and Idea}{15}
+\contentsline {section}{\numberline {3}Literature Review}{17}
+\contentsline {subsection}{\numberline {3.1}First Paper}{17}
+\contentsline {subsection}{\numberline {3.2}Second Paper}{19}
+\contentsline {subsection}{\numberline {3.3}Paper Three}{21}
+\contentsline {subsection}{\numberline {3.4}Black Schoales}{21}
+\contentsline {section}{\numberline {4}Multi-threaded Rationale}{22}
+\contentsline {section}{\numberline {5}Keywords}{22}
+\contentsline {section}{\numberline {6}Model Creation and Functions}{22}
+\contentsline {subsection}{\numberline {6.1}Setup}{22}
+\contentsline {subsection}{\numberline {6.2}Algorithm Development and Description}{23}
+\contentsline {subsection}{\numberline {6.3}Data Cleaning}{23}
+\contentsline {section}{\numberline {7}Results}{23}
+\contentsline {section}{References}{23}
