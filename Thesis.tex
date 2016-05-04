@@ -138,9 +138,19 @@ This level and representative of the US equity market provides us with a a good 
 
 In order to clean the data. We looked at the entire S \& P 1500. From there we truncated our data down to only equities with atleast 10 years worth of history. This provided context and allowed us to extend our time line for modeling and forecasting. After this data truncation, we found ourselves with a little more than 1200 equities. As a result, we were able to have a representative of approximately 80 percent of the USA's market cap. Afterwards we were able to run a correlation matrix over all of the different covariates in order to prevent multicollinearity. We found that there we no significant overlaps throughout the data thus allowing us to conclude that there will be minimal overlap throughout the regressions. After checking for the appearance of multicollinearity. We looked to provided correlations between three major covariates in Dividend Pay, Price to Book Ratio and PEG ratio. This allowed us to look at the data is see how there is apparent overlap. Thankfully we see minimal concentrations of the data and observe few outliers. Following that we normalized the data to be bound between 0 and zero. This was done primarily to help our machine learning algorithms with their consistency and to limit the variance in our linear regressions. 
 
-Talk about regression Models for Correlation
+\subsection{Financial Perspective and Idea}
+Our project is to determine machine learning algorithms that are able to assess a market-wide approach to finding low volatility equities. Following that discovery we are able to see which equities fall within the profit range of our projected machine learning algorithm then see which trades occur. The basic knowledge behind our idea is that we are attempting to create dynamic iron condors based on equities that fall within our testing set out of the algorithm. This provides us with a baseline for different choices and a variety of different metrics to test against.
 
-\section{Literature Review}
+Our goal is NOT pick stock that go up. Rather, we pick equities that we believe will be within our defined profitability range over the next 3 months. According to Openfolio, an independent website that tracks overall market performance, 70 percent of investors lost money. Allowing us to consider for our machine learning algorithm threshold anything about 50 percent to be superb\cite{Openfolio}.  
+
+Within the subset of the 3 month equities, those equities that are under the threshold of 10 percent, we consider low volatility. For the 3 month, 6 month and 1 year, we create boolean variables that determine if the equity fits within that range. Afterwards, we plan on looking at 12 different company metrics to see if they are quality predictors of determining market volatility. 
+
+Later we will go into detail about which metrics we use and which specific machine learning algorithms that we used. Following we output to a file the require options to purchase and sell in order to put on a trade. The construction of an iron condor require selling an out of the money put, purchasing a lower out of the money put, selling an out of the money call and purchasing a higher out of the money call. The range for profit is define between the price of the put and call that you sold and the maximum amount of loss is completely dependent on how far wide the distance is between the respective puts and calls.                                                                  
+\begin{align*}
+&Profit = (Selling Call) + (Selling Put) -(Purchase Price of Call) - (Purchase Price of Put)&\\
+&Loss = (Strike of Short Put - Strike of Long Put) - (Money Recieved)& 
+\end{align*}
+ \section{Literature Review}
 
 \subsection{First Paper}
 
@@ -161,18 +171,30 @@ This paper provided a list of GA based alogirithms that have been implmeneted on
 
 Prior to addressing this paper, determining indicators for our alogirhtm development was difficult, outlined in Nunez\cite{GA}, there is a long list of flucuating indcators that can be used. In the paper, the drive their genetic algorithm by using the metrics of price-earnings ratio, price-book value raio, price-cash flow raio, debt over book euiity, sales growthm, net income growth, cash flow growth, return on assets, turnover growth, and profit margin growth. Nunez et al, cites  7 other authors that have found these metrics to be effective in their research. This provided us with a subset of useful measures. In the paper, they are required to compute these ratios; however, because they are freely avaliable through bloomberg, we do not have to compute these values. A genetic algorithm is used to determine short indicators and long position indicators. They select, Price to Cash Flow ratio, Leverage ratio, Growth in Sales, and Increase in turnover for short positions and Market to book, growth in sales and Return on asset for long positions. They then use this to provide metrics to position for short or long moves. An example of a rule provided is that if the PER of a company is above 20 then move to a short position if it is below 10 invest in a long position. Each indicator then quantifies a parameter. 
 
-Instead of directly crafting their machine learning algorithm, They choose to  use a software tool known as Jacket for parallelsization and implemntation details. The software package is written in Matlab and natively allows for GPU implementation. This prvoided substantial reasons why software packages should be utilized over the creation of individuals tools. Throughout their study, they find that their for loop structures provided the most acute areas for parallelziation and functionality. A major issue noted with this sitution is that the memory capacity of the GPU limits the number of generations that can be executed on a GPU.
+Instead of directly crafting their machine learning algorithm, They choose to  use a software tool known as Jacket for parallelsization and implementation details. The software package is written in Matlab and naively allows for GPU implementation. This provided substantial reasons why software packages should be utilized over the creation of individuals tools. Throughout their study, they find that their for loop structures provided the most acute areas for parallelziation and functionality. A major issue noted with this situation is that the memory capacity of the GPU limits the number of generations that can be executed on a GPU.
 
-
-Short selling is the selling of a security that the seller does not own, or any sale that is completed by the delivery of a security borrowed by the seller. Short selling is a legitimate trading strategy. Typically, a short sale involves the sale of a security at the current price which is settled with shares lent to the short seller by a third party. The seller makes the short sale on the assumption that the price of the security will go down. If this occurs, the short seller will purchase shares to lock in a profit, extinguish the short position and replace the shares previously borrowed. Of course, if the stock rises in price, the short seller may elect to close out the position through a purchase, and absorb the resulting loss. Firms are required to report their short positions as of settlement on the 15th of each month. A compilation is published eight business days after.
-(NasDaq Publications)
-COmpare differences between the Sqrt and regular distributions
-Correlations
-$SUMMARY(NO_PROCESS_DATA)$
+\subsection{Paper Three}
 
 
 \subsection{Black Schoales}
-\section{GPU Rationale}
+The Black-Scholes formula at the most rudimetary stage is a formula used to calculate the price of options. This formula applies to puts and calls. Because of the existence of this formula, there is a continued amount of support for his is known as put-call parity. The logic behind put-call parity is that the value for an option or put can be respectively derived from each other. 
+\begin{equation}
+C-P = D(F-K)
+\label{PCP}
+\end{equation}
+\ref{PCP}$C$ is the value of the call, $P$ is the value of the put, $D$ is the discount factor which looks at value with time, $F$ is the Forward Price of the asset and $K$ is the strike price.
+\begin{center}
+\begin{align}
+\label{BC}
+&C(S,t) = N(d1)S-N(d2)Ke^-r(T-t)& \\
+&d1=1/sqrt(T-t)[ln(S/K) + (r+(omega)^2/2)(T-t)]&\\
+&d2= d1 -(omega)sqrt(T-t)&
+\end{align}
+\end{center}
+\ref{BC}With the Black-Scholes formula, the exaplination is a bit more convoluted. Instead of simply subtracting by a discount fact like with put-call parity, we are asked to look at a partial differential equation. $C$ is the price of the call with respect to price and time, T-t is the time til maturity, S is the spot price, K is the strike price r is the risk free rate and omega is the volatility. You will notice that there is a positive trend to expiry, meaning that the price of the option increases with time meaning that it will eventually converge with the market price at expiry. 
+
+These equations provide an explaination for why we chose low-volatility. Initially we chose low-volatility because there is an inverse relationship between price and volaility. Low volaility stock options at a discount becuase they are considered to be relatively worthless and profit is negatively skews then. We are able to profit off of the commision and the probability that those stocks will remain within their range. 
+\section{Multi-threaded Rationale}
 \section{Keywords}
 \section{Model Creation and Functions}
 \section{Results}

@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{gilyard_website}
 J.~Gilyard, ``Personal website,'' 2016.
@@ -20,6 +20,9 @@ H.~B. School, ``Bloomberg limits,'' 2015.
 
 \bibitem{Methodology}
 {\em S \& P US Indices Methodology}.
+
+\bibitem{Openfolio}
+Openfolio, ``70 percent of investors lost money,'' 2015.
 
 \bibitem{STS}
 D.~Mckenney and T.~White, ``Stock trading strategy using gp on gpu,'' {\em

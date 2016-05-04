@@ -1,15 +1,17 @@
 \select@language {english}
-\contentsline {section}{\numberline {1}Introduction}{6}
+\contentsline {section}{\numberline {1}Introduction}{7}
 \contentsline {section}{\numberline {2}Methodology and Approach}{8}
-\contentsline {subsection}{\numberline {2.1}Machine Learning Class}{8}
+\contentsline {subsection}{\numberline {2.1}Machine Learning Class}{9}
 \contentsline {subsection}{\numberline {2.2}Caret Package}{10}
 \contentsline {subsection}{\numberline {2.3}Data Mining}{11}
-\contentsline {section}{\numberline {3}Literature Review}{14}
-\contentsline {subsection}{\numberline {3.1}First Paper}{14}
-\contentsline {subsection}{\numberline {3.2}Second Paper}{16}
-\contentsline {subsection}{\numberline {3.3}Black Schoales}{18}
-\contentsline {section}{\numberline {4}GPU Rationale}{19}
-\contentsline {section}{\numberline {5}Keywords}{19}
-\contentsline {section}{\numberline {6}Model Creation and Functions}{19}
-\contentsline {section}{\numberline {7}Results}{19}
-\contentsline {section}{References}{19}
+\contentsline {subsection}{\numberline {2.4}Financial Perspective and Idea}{14}
+\contentsline {section}{\numberline {3}Literature Review}{15}
+\contentsline {subsection}{\numberline {3.1}First Paper}{15}
+\contentsline {subsection}{\numberline {3.2}Second Paper}{18}
+\contentsline {subsection}{\numberline {3.3}Paper Three}{19}
+\contentsline {subsection}{\numberline {3.4}Black Schoales}{20}
+\contentsline {section}{\numberline {4}Multi-threaded Rationale}{21}
+\contentsline {section}{\numberline {5}Keywords}{21}
+\contentsline {section}{\numberline {6}Model Creation and Functions}{21}
+\contentsline {section}{\numberline {7}Results}{21}
+\contentsline {section}{References}{21}

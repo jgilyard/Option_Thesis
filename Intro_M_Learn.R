@@ -5,12 +5,13 @@ Data_Nums <- read.csv("Data_1_No_Header.csv", header = TRUE, sep = ",")
 #creates vector for taking STD_Devs
 x <- length(Data)
 #Data <- na.omit(Data)
+set.seed(1)
 N_Matrix <- as.matrix(sapply(Data_Nums,as.numeric))
 Data[is.na(Data)]<-0
 samp1 <- Data[,1]
 rownames(Data)<- samp1
 Data[,1]<-NULL
-intrain <- createDataPartition(y=Data$M3_LOW_VOL, p=.85, list=FALSE)
+intrain <- createDataPartition(y=Data$M3_LOW_VOL, p=.75, list=FALSE)
 Data$M3_LOW_VOL = as.factor(Data$M3_LOW_VOL)
 #Add Preprocessing Average by dividing mean by standard deveiaion
 for( i in 1:10)
